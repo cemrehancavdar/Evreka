@@ -54,7 +54,6 @@ These 2 topics focuses on exact problem:
 
 [# Faster Distinct Queries ](https://blog.timescale.com/blog/how-we-made-distinct-queries-up-to-8000x-faster-on-postgresql/)
 
-##### TODO
 
 ## Answer 2
 
@@ -80,6 +79,7 @@ These 2 topics focuses on exact problem:
 			last_collection = models.DateTimeField()
 			operation_type = models.ForeignKey(OperationType, on_delete=models.CASCADE)
 			bin = models.ForeignKey(Bin, on_delete=models.CASCADE)
+##### Entity-relationship  diagram
 
 ![Entity-relationship  diagram](https://github.com/cemrehancavdar/Evreka/blob/main/OperationBin.png)
 
