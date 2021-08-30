@@ -81,7 +81,7 @@ These 2 topics focuses on exact problem:
 			operation_type = models.ForeignKey(OperationType, on_delete=models.CASCADE)
 			bin = models.ForeignKey(Bin, on_delete=models.CASCADE)
 
-![model](url_here)
+![Entity-relationship  diagram](https://github.com/cemrehancavdar/Evreka/blob/main/OperationBin.png)
 
 #### View
 
