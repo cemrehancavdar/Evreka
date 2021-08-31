@@ -48,7 +48,7 @@ Last navigation records can get by distinct vehicle query by descending datetime
 ### Suggestion
 Timeseries data can have poor performance on standart databases when data is getting bigger but TimescaleDB and InfluxDB like time series oriented databases solves scalability.
 
-These 2 topics focuses on exact problem: 
+These 2 topics focus on exact problem: 
 
 [# Continuous Aggregates](https://docs.timescale.com/timescaledb/latest/how-to-guides/continuous-aggregates/#continuous-aggregates)
 
